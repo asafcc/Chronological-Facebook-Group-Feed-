@@ -1,0 +1,16 @@
+{
+  "name": "Chronological Facebook Group Feed",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Show posts in Facebook groups chronologically",
+  "icons": { "128": "128.png" },
+  "browser_action": {
+    "default_icon": "90.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+
+  "permissions": ["tabs", "webRequest", "<all_urls>", "webRequestBlocking"]
+}
