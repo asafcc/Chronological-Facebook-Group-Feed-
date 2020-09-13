@@ -12,5 +12,11 @@
     "persistent": true
   },
 
-  "permissions": ["tabs", "webRequest", "<all_urls>", "webRequestBlocking"]
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "<all_urls>",
+    "webRequestBlocking",
+    "webNavigation"
+  ]
 }
